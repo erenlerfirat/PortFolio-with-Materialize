@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*Centering the slider*/
+.slide-container {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*search bar*/
+.section-search input {
+  padding: 5px !important;
+  font-size: 18px !important;
+  width: 90% !important;
+  border: white 3px solid !important;
+}
+#searchbar {
+  position: relative;
+}
+#search-btn {
+  position: absolute;
+  top: 1.6rem;
+}
+/*icon-colors*/
+.icon-firat {
+  color: #00bfa5;
+  /*color:#f4511e;*/
+}
+/*link sections icons*/
+.section-follow {
+  margin: 2rem 4rem;
+  padding: 2rem 2rem;
+}
+/*utilities*/
+.mt {
+  margin-top: 2rem;
+}
